@@ -1,1 +1,97 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catholic Geek - Welcome</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f7fafc;
+            font-family: 'Inter', Arial, Helvetica, sans-serif;
+        }
+        .splash-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            border-radius: 24px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+            padding: 3rem 2rem;
+            max-width: 90vw;
+            width: 400px;
+        }
+        .logo {
+            width: 96px;
+            height: 96px;
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .welcome-message {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #22223b;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+        .subtitle {
+            font-size: 1.1rem;
+            color: #4a4e69;
+            text-align: center;
+            font-weight: 400;
+            margin-bottom: 1.5rem;
+        }
+        @media (max-width: 500px) {
+            .splash-container {
+                padding: 2rem 1rem;
+                width: 95vw;
+            }
+            .welcome-message {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="splash-container">
+        <div class="logo">            
+           <img src="logo.png" alt="Catholic Geek Logo" width="200" height="200">
+        </div>
+        <div class="welcome-message">Welcome to Catholic.geek.nz</div>
+        <div class="subtitle">A community where faith and tech meet.</div>
+        <div >Join the Discord or check us out on GitHub.</div>
+        <div class="icon-links" style="display: flex; gap: 1.5rem; justify-content: center; margin: 1.5rem 0;">
+            <a href="https://discord.gg/mHPnPfRd" target="_blank" aria-label="Join us on Discord" style="display: flex; align-items: center;">
+                <!-- Discord SVG Icon -->
+                <svg width="36" height="36" viewBox="0 0 245 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="245" height="240" rx="48" fill="#5865F2"/>
+                    <path d="M104.4 104.2c-5.7 0-10.2 5-10.2 11.1 0 6.1 4.6 11.1 10.2 11.1 5.7 0 10.2-5 10.2-11.1.1-6.1-4.5-11.1-10.2-11.1zm36.2 0c-5.7 0-10.2 5-10.2 11.1 0 6.1 4.6 11.1 10.2 11.1 5.7 0 10.2-5 10.2-11.1 0-6.1-4.5-11.1-10.2-11.1z" fill="#fff"/>
+                    <path d="M194.1 20H50.9C34.2 20 20 34.2 20 50.9v138.2c0 16.7 14.2 30.9 30.9 30.9h119.2l-5.6-19.7 13.5 12.5 12.8 11.8 22.7 20.1V50.9c0-16.7-14.2-30.9-30.9-30.9zm-38.9 135s-3.7-4.4-6.8-8.3c13.5-3.8 18.6-12.2 18.6-12.2-4.2 2.7-8.2 4.6-11.8 5.9-5.1 2.1-10 3.5-14.8 4.3-9.8 1.8-18.8 1.3-26.6-0.1-5.8-1.1-10.8-2.7-15-4.3-2.4-0.9-5-2-7.6-3.4-0.3-0.2-0.6-0.3-0.9-0.5-0.2-0.1-0.3-0.2-0.5-0.3-2.2-1.2-3.4-2-3.4-2s5 8.3 18.2 12.2c-3.1 3.9-6.9 8.4-6.9 8.4-22.8-0.7-31.5-15.7-31.5-15.7 0-33.3 14.9-60.3 14.9-60.3 14.9-11.2 29-10.9 29-10.9l1 1.2c-18.6 5.4-27.2 13.6-27.2 13.6s2.3-1.2 6.2-2.9c11.3-4.9 20.2-6.2 23.8-6.5 0.6-0.1 1.1-0.2 1.7-0.2 6.1-0.8 13-1 20.2-0.2 9.5 1.1 19.7 3.9 30.2 9.6 0 0-8.2-7.8-25.9-13.2l1.4-1.6s14.1-0.3 29 10.9c0 0 14.9 27 14.9 60.3 0.1 0-8.7 15-31.5 15.7z" fill="#fff"/>
+                </svg>
+            </a>
+            <a href="https://github.com/catholicgeek" target="_blank" aria-label="View us on GitHub" style="display: flex; align-items: center;">
+                <!-- GitHub SVG Icon -->
+                <svg width="36" height="36" viewBox="0 0 98 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="98" height="96" rx="24" fill="#22223b"/>
+                    <path d="M49 18C33.1 18 20 31.1 20 47.1c0 12.8 8.2 23.6 19.6 27.4 1.4.3 1.9-.6 1.9-1.3 0-.6 0-2.3 0-4.5-8 1.7-9.7-3.9-9.7-3.9-1.3-3.2-3.2-4-3.2-4-2.6-1.8.2-1.8.2-1.8 2.9.2 4.4 3 4.4 3 2.6 4.4 6.8 3.1 8.5 2.4.3-1.9 1-3.1 1.8-3.8-6.4-.7-13.1-3.2-13.1-14.2 0-3.1 1.1-5.6 2.9-7.6-.3-.7-1.3-3.5.3-7.3 0 0 2.4-.8 7.8 2.9 2.3-.6 4.8-.9 7.3-.9s5 .3 7.3.9c5.4-3.7 7.8-2.9 7.8-2.9 1.6 3.8.6 6.6.3 7.3 1.8 2 2.9 4.5 2.9 7.6 0 11-6.7 13.5-13.1 14.2 1 .9 1.9 2.6 1.9 5.3 0 3.8 0 6.8 0 7.7 0 .7.5 1.6 1.9 1.3C69.8 70.7 78 59.9 78 47.1 78 31.1 64.9 18 49 18z" fill="#fff"/>
+                </svg>
+            </a>
+        </div>
+        
+    </div>
+</body>
+</html>
